@@ -5,6 +5,7 @@ class Solution {
     // the states can be stored in-place and can easily be retrieved
     // by both states
     // that means segmentations among bits can be used to store stages
+    // discussion: https://leetcode.com/problems/game-of-life/discuss/73223/Easiest-JAVA-solution-with-explanation
     
     public void gameOfLife(int[][] board) {
         int m = board.length, n = board[0].length;
