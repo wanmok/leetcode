@@ -8,7 +8,9 @@
  * }
  */
 public class Codec {
-
+    // don't overestimate the problem
+    // always bear in mind that the solution will be simple and concise
+    
     private static final String NULL = "null";
     private static final String SPLITER = ",";
     
