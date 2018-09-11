@@ -1,0 +1,9 @@
+2018-09-10
+# NOTE
+- It is boolean not bool...
+- s.substring(a, b) is [a, b)
+- If you can identify the problem, then don't overestimate it and don't make the code complicated.
+
+# PROBLEMS
+5
+10
