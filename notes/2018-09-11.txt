@@ -1,0 +1,12 @@
+2018-09-11
+# NOTE
+- Need to further stengthen the ability to under stand the problem and not to make the problem more sophisticated.
+
+# PROBLEMS
+20
+53
+62
+63
+64
+70
+121

@@ -1,4 +1,8 @@
 class Solution {
+    // @COMPANY Facebook
+    // @KEYWORD Dynamic Programming
+    // @NOTE This is a top-down approach. Think about a bottom-up approach?
+
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         int n = obstacleGrid.length;
         if (n == 0) return 0;
