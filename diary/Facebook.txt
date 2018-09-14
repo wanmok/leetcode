@@ -1,0 +1,79 @@
+# Facebook
+## High-freq
+- 1 Two Sum:
+- 10 Regular Expression Matching:
+- 15 3Sum: Sorting and using while loop to skip the same triplets.
+- 17 Letter Combinations of a Phone Number: Remember to define the edges. This is an ordinary backtracking problem.
+- 20 Valid Parentheses: Just use stack to pair the parentheses.
+- 23 Merge k Sorted Lists: When merging two linked lists, remember to use || instead of &&. Merging k lists can be regarded as doing several merging two lists among k lists.
+- 29 Divide Two Integers: Approaching to dividend has to be done via bit manipulation. Math.abs() intput and output types are consistent.
+- 31 Next Permutation: Understand the property of permutation and find the pattern. Swap and reverse. Take care of the loop boundaries, again!
+- 32 Longest Valid Parentheses: Divide original problem into subproblem, and the subproblem has to deal with two cases. The longest valid substring ending at ith.
+- 33 Search in Rotated Sorted Array: Find the changing point regarded as rotated position using first binary search, and find the target using the second binary search.
+- 42
+- 43
+- 44
+- 51
+- 56
+- 57
+- 65
+- 67 Add Binary: Take care of loop criteria and null pointer.
+- 75
+- 76
+- 78
+- 79
+- 88 Merge Sorted Array: Put the large elements at the end of the array. Remember the given criteria.
+- 91
+- 98
+- 114
+- 121
+- 124
+- 125
+- 133
+- 138
+- 139
+- 140
+- 143
+- 146
+- 157
+- 158
+- 161
+- 173
+- 200
+- 206
+- 211
+- 215
+- 227
+- 236
+- 238
+- 252
+- 253
+- 257
+- 273
+- 277
+- 278
+- 282
+- 283
+- 285
+- 297
+- 300
+- 301
+- 304
+- 311
+- 314
+- 317
+- 325
+- 336
+- 340
+- 341
+- 348
+- 349
+- 350
+- 358
+- 438
+- 543
+- 560
+- 621
+- 680
+- 689
+- 

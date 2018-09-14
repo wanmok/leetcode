@@ -1,7 +1,7 @@
 class Solution {
-	// @KEYWORD Hash Map
     // @COMPANY Facebook
-	// @NOTE Using target-nums[i] as key.
+	// @KEYWORD Hash Map
+    // @NOTE Using target-nums[i] as key.
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> hash = new HashMap<>();
         

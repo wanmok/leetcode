@@ -1,0 +1,11 @@
+2018-09-13
+# NOTE
+- In two pointers problem, how to figure out its loop invariant?
+- Remember Math.abs() input and output types are consistent.
+
+# PROBLEMS
+88
+29
+31
+32
+33
