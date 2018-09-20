@@ -10,8 +10,8 @@
 - 31 Next Permutation: Understand the property of permutation and find the pattern. Swap and reverse. Take care of the loop boundaries, again!
 - 32 Longest Valid Parentheses: Divide original problem into subproblem, and the subproblem has to deal with two cases. The longest valid substring ending at ith.
 - 33 Search in Rotated Sorted Array: Find the changing point regarded as rotated position using first binary search, and find the target using the second binary search.
-- 42
-- 43
+- 42 Trapping Rain Water: Why water will be trapped? It depends on the bars! The lower bar know how much water will be trapped and move to the next position.
+- 43 Multiply Strings: Simulate manual multiplication process. Take care of the carry. The elegant solution can be shorter.
 - 44
 - 51
 - 56
@@ -76,4 +76,3 @@
 - 621
 - 680
 - 689
-- 

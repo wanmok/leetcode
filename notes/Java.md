@@ -12,6 +12,7 @@
 - .delete(i, j)
 - .toString()
 - .insert(i, char)
+- .setCharAt(idx, ch)
 
 ## Deque
 - .offerLast()
