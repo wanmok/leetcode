@@ -8,11 +8,18 @@
 ## Common Classes
 ### StringBuilder
 - .append()
-- .deleteCharAt()
+- .deleteCharAt() ***
 - .delete(i, j)
 - .toString()
 - .insert(i, char)
 - .setCharAt(idx, ch)
+
+## List
+- .add(idx, E)
+- .add(E)
+- .size()
+- .remove()
+- .sort((i1, i2) -> Integer.compare(i1.start, i2.start))
 
 ## Deque
 - .offerLast()

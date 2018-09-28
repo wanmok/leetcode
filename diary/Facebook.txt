@@ -12,26 +12,26 @@
 - 33 Search in Rotated Sorted Array: Find the changing point regarded as rotated position using first binary search, and find the target using the second binary search.
 - 42 Trapping Rain Water: Why water will be trapped? It depends on the bars! The lower bar know how much water will be trapped and move to the next position.
 - 43 Multiply Strings: Simulate manual multiplication process. Take care of the carry. The elegant solution can be shorter.
-- 44
-- 51
-- 56
-- 57
-- 65
+- 44 Wildcard Matching:
+- 51 N-Queens: Use backtracking and record the path. Think about how to valid a place can be placed or not.
+- 56 Merge Intervals: Sort the list and iterate to find the gap. Merger occurs when there is a gap.
+- 57 Insert Interval: Add the interval to the right place and use exactly the same technique to merge intervals. OR iterate the intervals before the new one, add the new one and then add the rest.
+- 65 Valid Number: Use finite state machine!
 - 67 Add Binary: Take care of loop criteria and null pointer.
-- 75
+- 75 Sort Colors: Use three pointers. Each pointer corresponds a number.
 - 76
-- 78
-- 79
+- 78 Subsets: Backtracking is fine and don't forget to avoid duplicates.
+- 79 Word Search: Using backtracking to explore all the possible combinations. Remember to stop ASAP if the path were wrong. How to avoid wandering the path twice? Using mask! (XOR is ok)
 - 88 Merge Sorted Array: Put the large elements at the end of the array. Remember the given criteria.
-- 91
-- 98
-- 114
-- 121
-- 124
-- 125
-- 133
-- 138
-- 139
+- 91 Decode Ways: Starts from the end of the array. Beginning from the end of the array can avoid judging by its first 1 or 2 digits.
+- 98 Validate Binary Search Tree: Use in-order traversal to solve. Iteration and recursion both are OK.
+- 114 Flatten Binary Tree to Linked List: Build from the right side. How to maintain the correct pointer?
+- 121 Best Time to Buy and Sell Stock: Two approaches. DP's space complexity is O(n), and the other is O(1).
+- 124 Binary Tree Maximum Path Sum
+- 125 Valid Palindrome: Silly problem... Regex is so easy why bothers....
+- 133 Clone Graph:
+- 138 Copy List with Random Pointer:
+- 139 Word Break:
 - 140
 - 143
 - 146
