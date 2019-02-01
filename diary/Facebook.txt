@@ -10,18 +10,30 @@
 - 31 Next Permutation: Understand the property of permutation and find the pattern. Swap and reverse. Take care of the loop boundaries, again!
 - 32 Longest Valid Parentheses: Divide original problem into subproblem, and the subproblem has to deal with two cases. The longest valid substring ending at ith.
 - 33 Search in Rotated Sorted Array: Find the changing point regarded as rotated position using first binary search, and find the target using the second binary search.
+- 34 Find First and Last Position of Element in Sorted Array[]: Binary search. use left boolean to control.
+- 36 Valid Sudoku[]: Use HashSet to store the number.
+- 38 Count and Say[]:
+- 39 Combination Sum[]: Backtracking. Remember to advance start.
 - 42 Trapping Rain Water: Why water will be trapped? It depends on the bars! The lower bar know how much water will be trapped and move to the next position.
 - 43 Multiply Strings: Simulate manual multiplication process. Take care of the carry. The elegant solution can be shorter.
 - 44 Wildcard Matching:
+- 49 Group Anagrams[]: Use HashMap.
+- 50 Pow(x, n)[]: Take care of overflow of int. Use long instead. 
 - 51 N-Queens: Use backtracking and record the path. Think about how to valid a place can be placed or not.
-- 56 Merge Intervals: Sort the list and iterate to find the gap. Merger occurs when there is a gap.
+- 53 Maximum Subarray[]: Dynamic programming. 
+- 56 Merge Intervals: Sort the list and iterate to find the gap. Merger occurs when there is a gap. intervals.sort((i1, i2) -> Integer.compare(i1.start, i2.start));
 - 57 Insert Interval: Add the interval to the right place and use exactly the same technique to merge intervals. OR iterate the intervals before the new one, add the new one and then add the rest.
 - 65 Valid Number: Use finite state machine!
+- 66 Plus One[]:
 - 67 Add Binary: Take care of loop criteria and null pointer.
-- 75 Sort Colors: Use three pointers. Each pointer corresponds a number.
+- 73 Set Matrix Zeroes[]:
+- 74 Search a 2D Matrix[]: project the matrix to a flattened vector.
+- 75 Sort Colors: Use three pointers. Each pointer corresponds a number. every 2, <2 1, ==0 0
 - 76
 - 78 Subsets: Backtracking is fine and don't forget to avoid duplicates.
 - 79 Word Search: Using backtracking to explore all the possible combinations. Remember to stop ASAP if the path were wrong. How to avoid wandering the path twice? Using mask! (XOR is ok)
+- 81 Search in Rotated Sorted Array II[]:
+- 84 Largest Rectangle in Histogram[]:
 - 88 Merge Sorted Array: Put the large elements at the end of the array. Remember the given criteria.
 - 91 Decode Ways: Starts from the end of the array. Beginning from the end of the array can avoid judging by its first 1 or 2 digits.
 - 98 Validate Binary Search Tree: Use in-order traversal to solve. Iteration and recursion both are OK.
@@ -31,48 +43,48 @@
 - 125 Valid Palindrome: Silly problem... Regex is so easy why bothers....
 - 133 Clone Graph:
 - 138 Copy List with Random Pointer:
-- 139 Word Break:
-- 140
-- 143
-- 146
-- 157
-- 158
-- 161
-- 173
-- 200
-- 206
-- 211
-- 215
-- 227
-- 236
-- 238
-- 252
-- 253
-- 257
-- 273
-- 277
-- 278
-- 282
-- 283
-- 285
-- 297
-- 300
-- 301
-- 304
-- 311
-- 314
-- 317
-- 325
-- 336
-- 340
-- 341
-- 348
-- 349
-- 350
-- 358
-- 438
-- 543
-- 560
-- 621
-- 680
-- 689
+- 139 Word Break: Very similar to parsing. A bottom-up solution using DP.
+- 140 Word Break II[]: like parsing.
+- 143 Reorder List[]: 3 steps. find the middle, reverse the second half, reorder.
+- 146 LRU Cache[]:
+- 157 x
+- 158 x
+- 161 x
+- 173 Binary Search Tree Iterator[]:
+- 200 Number of Islands:
+- 206 Reverse Linked List: Figure out how many ListNode needed and how to process can be more efficient. curr and prev relation.
+- 211 Add and Search Word - Data structure design[]:
+- 215 Kth Largest Element in an Array[]: Priority Queue, Sort.
+- 227 Basic Calculator II: Using while() loop to find the subtring that is a number. Do the operation when there is a second operand (*, /).
+- 236 Lowest Common Ancestor of a Binary Tree: There are two cases to discuss and it is obvious to solve tree problems by recursion. The LCA can either be the node itself or the parent node.
+- 238 Product of Array Except Self: The ith position in the result array is the product of the product of all the numbers on its left and the product of all the numbers on its right. So loop twice will be the solution.
+- 252 x
+- 253 x
+- 257 Binary Tree Paths: Add to the list at the end, namely leaf node.
+- 273 Integer to English Words[]: Predefine the strings, convert every 1000.
+- 277 x
+- 278 First Bad Version: Subscript and avoid underflow.
+- 282 Expression Add Operators[]: Backtracking. Trace the value on the fly.
+- 283 Move Zeroes[]:Fast and slow pointers. The fast one will go through all the numbers and the slow one will move the non-zero number to the right place.
+- 285 x
+- 297 Serialize and Deserialize Binary Tree[]:
+- 300 Longest Increasing Subsequence: Basic idea is to find the LIS at ith pos.
+- 301 Remove Invalid Parentheses[]:
+- 304 Range Sum Query 2D - Immutable: (0,0)->(x,y)
+- 311 x
+- 314 x
+- 317 x
+- 325 x
+- 336 Palindrome Pairs[]: 
+- 340 x
+- 341 Flatten Nested List Iterator[]: Using stack to store all the elements. When call .hasNext() to check whether it is a integer, if not, push the inner nested list into the stack (as this process may go several times, so you need to use a loop over stack.isEmpty()).
+- 348 x
+- 349 Intersection of Two Arrays[]: 1. Use HashSet to store and find the intersection. 2. Two Pointers. 
+- 350 Intersection of Two Arrays II[]: Quite similar with 349. Use HashMap instead. If too large or sorted, use two pointers.
+- 358 x
+- 438 Find All Anagrams in a String[x]: Use two pointers to control a sliding window. Hash table is used to maintain what is in the pattern string. (h[x]>0, h[x]>=0) counter is used to count when to add the result.
+- 543 Diameter of Binary Tree[x]: Using depth-first serach to find the longest path. Meanwhile, check each TreeNode whether it is the node having this longest path.
+- 560 Subarray Sum Equals K[]: 1. Precalculating the sum[i], delta=sum[j]-sum[i]==k. 2. sum on the go 3. HashMap
+- 621 Task Scheduler[]:1. sorted and use greedy algorithm. everytime pick the task that has largest remain times. base case: i > 26 and the last number has more than 1 task. 2. use priority queue instead of sort.
+- 680 Valid Palindrome II[x]: There are two cases and you have to check in both two cases whether it is a valid palindrome.
+- 689 Maximum Sum of 3 Non-Overlapping Subarrays[]: Combining sliding window and dynamic programming. Split to 3 parts...
